@@ -47,7 +47,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>CalculatorSecDevOps</mainClass> <!-- Replace with your main class -->
+                            <mainClass>Calculator</mainClass> <!-- Replace with your main class -->
                         </manifest>
                     </archive>
                 </configuration>
@@ -125,4 +125,3 @@
     </dependencies>
 
 </project>
-

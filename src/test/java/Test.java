@@ -1,11 +1,11 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Test;
 
-public class TestTest {
+public class Test {
 
     Calculator testInstance = new Calculator();
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testAddition() {
         // Test case 1: Positive numbers
         int num1 = 5;
@@ -32,7 +32,7 @@ public class TestTest {
         assertEquals(expectedSum, actualSum);
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testEdgeCases() {
         // Test zero case
         assertEquals(0, testInstance.addNumbers(0, 0));
@@ -44,4 +44,3 @@ public class TestTest {
         assertEquals(Integer.MIN_VALUE, testInstance.addNumbers(Integer.MIN_VALUE, 0));
     }
 }
-

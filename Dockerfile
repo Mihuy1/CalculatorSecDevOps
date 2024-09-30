@@ -15,4 +15,3 @@ RUN mvn package
 
 # Run the main class from the built JAR
 CMD ["java", "-jar", "target/Test.jar"]
-
